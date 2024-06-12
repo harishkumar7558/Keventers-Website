@@ -1,0 +1,29 @@
+
+.carendtex{
+    font-size: 400% ;
+    font-weight: 900% !important;
+    width: 70%;
+    color: white;
+    margin-left: 15%;
+    padding: 5%;
+}
+@media screen and (max-width:1000px)  {
+    
+    .carendtex{
+        font-size: 200% ;
+        font-weight: 900% !important;
+        width: 70%;
+        color: white;
+        margin-left: 15%;
+        padding: 5%;
+    }
+    .carbt{
+        width: 50% !important;
+    }
+}
+@media screen and (max-width:600px)  {
+ 
+    .carbt{
+        width: 50% !important;
+    }
+}

@@ -1,0 +1,27 @@
+.whatimg1{
+
+    border-radius: 12%;
+    
+    
+}
+.whatimg1:hover{
+    opacity: 0.5;
+}
+.h1what{
+    font-size: 400%;
+    font-weight: 900;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    display: inline-block;
+    margin-top: 5%;
+}
+.whatptag{
+    width: 80%;
+    padding: 2%;
+    margin-left: 10%;
+}
+@media screen and (max-width:935px) {
+    .white{
+        margin-left: -10%;
+    }
+}

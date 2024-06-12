@@ -1,0 +1,82 @@
+.edwardmain{
+    margin-top: 15%;
+    border-bottom: 1px solid black;
+    color: black;
+}
+.edwardmain p{
+    font-weight: 300;
+    font-size: 150%;
+    margin-top: 5%;
+    font-family: "Playfair Display", serif;
+}
+.smhead{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 120%;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    margin-top: 2%;
+   
+
+
+}
+.lghead{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 620%;
+}
+.edwardimg{
+    margin-top: 25%;
+    padding: 2%;   
+    font-family: "Amatic SC", sans-serif !important;
+}
+@media screen and (max-width:770px) {
+    
+    .lghead{
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-size: 420%;
+    }
+    
+    
+}
+
+@media screen and (max-width:600px) {
+    .edimg{
+     
+        width: 50%;
+ 
+    }
+    .edwardimg{
+        text-align: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width:1000px) {
+
+    .edwardmain{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .fourimg{
+        margin-left: 23%;
+        margin-top: 1% !important;
+        width: 70%;
+        text-align: center;
+        align-items: center;
+    }
+    .fourimg1{
+        margin-left: 22%;
+        margin-top: 1% !important;
+        width: 58%;
+        align-items: center;
+    }
+    .flexfour{
+        flex-direction: column;
+    }
+}

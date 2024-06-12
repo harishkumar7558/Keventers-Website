@@ -1,0 +1,19 @@
+@media screen and (max-width:1000px) {
+    .flexing div{
+        flex-direction: column;
+        
+        padding: 0 !important;
+    }
+    .downflex1{
+        flex-direction: column;
+    }
+    
+    .downflex{
+        flex-direction: column;
+    }
+}
+.backgroundfoot{
+    background-color: blueviolet;
+    color: #000000;
+    padding: 5%;
+}

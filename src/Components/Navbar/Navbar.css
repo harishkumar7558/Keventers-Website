@@ -1,0 +1,15 @@
+.navbarblack{
+    text-align: center !important;
+    margin-left: 24% !important;
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+}
+@media screen and (max-width:1200px) {
+    .navbarblack{
+        text-align: center !important;
+        margin-left: 10% !important;
+        background-color: black;
+    }
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width:1000px) {
+    .flexmap{
+        flex-direction: column !important;
+        text-align: center;
+        align-items: center;
+    }
+    .map{
+        width: 90%;
+    
+    }
+}

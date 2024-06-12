@@ -1,0 +1,70 @@
+.gif{
+    
+    width: 50%;
+   
+    border-radius: 10%;
+    
+}
+.ordermain{
+    position: relative;
+   
+}
+.star{
+    position: absolute;
+}
+.orderbut{
+   
+    margin-top: 10%;
+    
+}
+.orderhead{
+    margin-top: 5%;
+}
+@media screen and (max-width:1200px) {
+    .orderhead{
+        flex-direction: column;
+        margin-top: 0%;
+    }
+    .gif{
+    
+        width: 50%;
+       margin-left: 20%;
+       margin-top: 5%;
+        border-radius: 10%;
+        padding: 0 !important;
+        
+    }
+    .star{
+        position: absolute;
+        
+    }
+    
+.orderbut{
+   
+    margin-top: 10%;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 1%;
+    
+}
+}
+@media screen and (max-width:600px) {
+    .orderbut{
+   
+        margin-top: 10%;
+        width: 50%;
+        margin-left: 30%;
+        margin-bottom: 1%;
+        
+    }
+    .gif{
+    
+        width: 50%;
+       margin-left: 23%;
+       margin-top: 8%;
+        border-radius: 10%;
+        padding: 0 !important;
+        
+    }
+
+}

@@ -1,0 +1,72 @@
+.roundsimg{
+    border-radius: 900px 900px 900px 900px;
+}
+
+.pos{
+    z-index: 5 !important;
+}
+
+.yellowmain{
+    position: relative;
+}
+.yimg{
+    position: absolute;
+    z-index: -1;
+    width: 300%;
+    left: -180%;
+    top: -50%;
+}
+@media screen and (max-width:1200px) {
+    .pos{
+        flex-direction: column;
+        border-radius: 5% !important;
+    }
+    .yimg{
+        position: absolute;
+    z-index: -1;
+    width: 900%;
+    left: -480%;
+    
+    }
+}
+@media screen and (max-width:935px) {
+    .cards{
+        flex-direction: column !important;
+        align-items: center !important;
+        font-size: medium !important;
+        padding: 0% !important;
+    }
+    .yimg{
+        position: absolute;
+    z-index: -1;
+    width: 1100%;
+    left: -480%;
+    padding-top: 10%;
+    
+    padding-bottom: 10%
+    
+    }
+}
+@media screen and (max-width:600px) {
+    .cards h5{
+        font-size: 100% !important;
+    }
+    .pos{
+        width: 80%;
+        align-items: center;
+    }
+    .roundsimg{
+        width: 50% !important;
+    }
+    .yimg{
+        position: absolute;
+    z-index: -1;
+    width: 1700%;
+    left: -80%;
+    
+    padding-top: 200%;
+    padding-bottom: 100%;
+    }
+    
+    
+}
