@@ -1,15 +1,14 @@
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
+import About from './Components/About/About';
 import Keventerslogo from './Components/Keventers/Keventerslogo';
 import Navbar from './Components/Navbar/Navbar';
-import About from './Components/About/About';
 
-import Footer from './Components/Footer/Footer';
-import ContactUs from "./Components/ContactUs/ContactUs";
 import Careers from "./Components/Careers/Careers";
-import Store from "./Components/Stores/Store";
+import ContactUs from "./Components/ContactUs/ContactUs";
+import Footer from './Components/Footer/Footer';
 import Home from "./Components/Home/Home";
+import Store from "./Components/Stores/Store";
 
 
 
